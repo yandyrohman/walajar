@@ -8,7 +8,8 @@ export default defineConfig({
     alias:{
       '@' : path.resolve(__dirname, './src'),
       '@components' : path.resolve(__dirname, './src/components'),
-      '@pages' : path.resolve(__dirname, './src/pages')
+      '@pages' : path.resolve(__dirname, './src/pages'),
+      '@ui' : path.resolve(__dirname, './src/ui')
     }
   },
   plugins: [vue()]
