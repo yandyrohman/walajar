@@ -6,7 +6,6 @@ Konsep utama dari Walajar adalah sebuah forum, disana kita bisa posting, komen, 
 
 ## Kontributor
 
-[Yandi Rohman](https://github.com/yandyrohman)
------
+1. [Yandi Rohman](https://github.com/yandyrohman)
 Jika ingin berkontribusi, silahkan hubungi 08994999050 (Yandi Rohman)
 
