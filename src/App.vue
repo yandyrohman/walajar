@@ -3,5 +3,7 @@
 </script>
 
 <template>
-  <router-view />
+  <div class="max-h-screen overflow-y-auto">
+    <router-view />
+  </div>
 </template>

@@ -1,13 +1,25 @@
 <script setup>
+  import { ref } from 'vue'
   import Navbar from '@components/base/Navbar.vue'
   import ForumList from '@components/home/ForumList.vue'
+  import News from '@components/home/News.vue'
   import UiInput from '@ui/Input.vue'
+  import UiModal from '@ui/Modal.vue'
+
+  const news = ref({
+    show: false,
+    selected: null
+  })
+
+  function showNews () {
+    news.value.show = true
+  }
 </script>
 
 <template>
   <Navbar />
   <div class="w-full h-max flex justify-center mt-[60px] mb-[60px]">
-    <div class="w-[1000px] mt-[40px] flex gap-[20px]">
+    <div class="w-[1000px] mt-[40px] flex gap-[50px]">
       <div class="w-[700px]">
         
         <!-- header -->
@@ -32,7 +44,22 @@
         </div>
 
       </div>
-      <div class="w-[300px] h-[200px]"></div>
+      <div class="w-[300px] h-[200px]">
+
+        <!-- news -->
+        <div class="text-zinc-500">Kabar Terbaru</div>
+        <div class="mt-[15px] space-y-[15px]">
+          <News
+            v-for="i in 3"
+            @selected="showNews()"
+          />
+        </div>
+      
+      </div>
     </div>
   </div>
+
+  <teleport to="body">
+    <UiModal v-model="news.show" />
+  </teleport>
 </template>
