@@ -1,7 +1,11 @@
-# Vue 3 + Vite
+# Walajar Source Code
+Project ini dibuat untuk mewadahi teman-teman yang ingin belajar atau sharing seputar dunia per-ngoding-an.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Konsep
+Konsep utama dari Walajar adalah sebuah forum, disana kita bisa posting, komen, react postingan, dan membuat tugas untuk member forum.
 
-## Recommended IDE Setup
+## Kontributor
+[Yandi Rohman](https://github.com/yandyrohman)
+-----
+Jika ingin berkontribusi, silahkan hubungi 08994999050 (Yandi Rohman)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
