@@ -1,5 +1,6 @@
 # Walajar Source Code
-Project ini dibuat untuk mewadahi teman-teman yang ingin belajar atau sharing seputar dunia per-ngoding-an.
+Project ini dibuat untuk mewadahi teman-teman yang ingin belajar atau sharing seputar dunia per-ngoding-an.<br>
+Live link : [forum-walajar.web.app](https://forum-walajar.web.app)
 
 ## Konsep
 Konsep utama dari Walajar adalah sebuah forum, disana kita bisa posting, komen, react postingan, dan membuat tugas untuk member forum.
