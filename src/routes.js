@@ -4,6 +4,10 @@ const routes = [
   {
     path: '/',
     component: () => import('@pages/Home.vue')
+  },
+  {
+    path: '/forum/:id',
+    component: () => import('@pages/Forum.vue')
   }
 ]
 
