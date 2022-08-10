@@ -11,6 +11,10 @@
     zIndex: {
       type: Number,
       default: 999
+    },
+    width: {
+      type: String,
+      default: 'md'
     }
   })
 
@@ -31,8 +35,16 @@
     @click="closeModal()"
   >
     <div class="w-full max-h-screen overflow-y-auto flex justify-center">
-      <div class="w-[400px] h-max bg-white rounded-md shadow-lg">
-        <div v-for="i in 10">tes</div>
+      <div
+        class="h-max bg-white rounded-md shadow-lg"
+        :class="{
+          'w-[200px]': props.width === 'sm',
+          'w-[400px]': props.width === 'md',
+          'w-[600px]': props.width === 'lg',
+        }"
+        @click.stop  
+      >
+        <slot />
       </div>
     </div>
   </div>

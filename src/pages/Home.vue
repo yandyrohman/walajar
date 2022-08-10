@@ -3,8 +3,8 @@
   import Navbar from '@components/base/Navbar.vue'
   import ForumList from '@components/home/ForumList.vue'
   import News from '@components/home/News.vue'
+  import NewsDetail from '@components/home/NewsDetail.vue'
   import UiInput from '@ui/Input.vue'
-  import UiModal from '@ui/Modal.vue'
 
   const news = ref({
     show: false,
@@ -60,6 +60,6 @@
   </div>
 
   <teleport to="body">
-    <UiModal v-model="news.show" />
+    <NewsDetail v-model="news.show" />
   </teleport>
 </template>
